@@ -3,3 +3,4 @@ npm-debug.log
 index.cjs.js
 index.es.js
 dist/
+coverage/
