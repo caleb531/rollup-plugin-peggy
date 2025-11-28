@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-peggy",
-  "version": "6.0.0",
+  "version": "6.1.0-rc.1",
   "description": "Import PEG.js grammars as parsers directly in your code via Peggy, the PEG.js successor",
   "author": "Caleb Evans",
   "license": "MIT",
