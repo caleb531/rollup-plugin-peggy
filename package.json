@@ -22,16 +22,16 @@
     "@rollup/pluginutils": "^5.3.0"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^29.0.0",
+    "@rollup/plugin-commonjs": "^29.0.2",
     "@rollup/plugin-node-resolve": "^16.0.3",
     "@rollup/plugin-typescript": "^12.3.0",
-    "@vitest/coverage-v8": "4.0.14",
-    "peggy": "^5.0.6",
-    "prettier": "^3.7.1",
-    "rollup": "^4.53.3",
-    "rollup-plugin-dts": "^6.3.0",
+    "@vitest/coverage-v8": "4.1.0",
+    "peggy": "^5.1.0",
+    "prettier": "^3.8.1",
+    "rollup": "^4.59.0",
+    "rollup-plugin-dts": "^6.4.0",
     "tslib": "^2.8.1",
-    "vitest": "^4.0.14"
+    "vitest": "^4.1.0"
   },
   "peerDependencies": {
     "peggy": ">=1.2.0",
