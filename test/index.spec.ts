@@ -34,5 +34,9 @@ test('should accept standard Peggy options', async () => {
   const { parse } = new Function(
     `${generated.output[0].code}; return ${outputName};`
   )();
-  expect(() => parse('3*((((((1+2')).toThrow(Error);
+
+  // A string with deep nesting (25 levels) would take >10s to parse without
+  // cache, causing the test to timeout. With cache: true, it takes <5ms.
+  const deepInput = `3*${'('.repeat(25)}1+2`;
+  expect(() => parse(deepInput)).toThrow(Error);
 });
