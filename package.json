@@ -40,7 +40,8 @@
   "keywords": [
     "pegjs",
     "peggy",
-    "rollup-plugin"
+    "rollup-plugin",
+    "vite-plugin"
   ],
   "pnpm": {
     "onlyBuiltDependencies": [
