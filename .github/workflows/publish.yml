@@ -35,5 +35,6 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Build & publish to npm
-        run: npm publish
+        # Adding --no-git-checks solves a weird ERR_PNPM_GIT_UNKNOWN_BRANCH
+        # error
+        run: pnpm publish --no-git-checks
